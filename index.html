@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="main">
+    <aside class="banner">
+      <div class="banner__shelves shelves" aria-labelledby="shelves-title">
+        <h2 class="visually-hidden">Полки с товарами</h2>
+        <div class="shelves__item shelf shelf--1">
+          <h3 class="shelf__title visually-hidden">Полка 1</h3>
+          <div
+            class="shelf__item item wine"
+            draggable="true"
+            data-id="1"
+            role="button">
+            <img src="./images/shelf-1/wine.svg" alt="" />
+          </div>
+          <div
+            class="shelf__item item milk"
+            draggable="true"
+            data-id="2"
+            role="button">
+            <img src="./images/shelf-1/milk.svg" alt="" />
+          </div>
+          <div
+            class="shelf__item item jam"
+            draggable="true"
+            data-id="3"
+            role="button">
+            <img src="./images/shelf-1/jam.svg" alt="" />
+          </div>
+          <div
+            class="shelf__item item cheese"
+            draggable="true"
+            data-id="4"
+            role="button">
+            <img src="./images/shelf-1/cheese.svg" alt="" />
+          </div>
+        </div>
+        <div class="shelves__item shelf shelf--2">
+          <h3 class="shelf__title visually-hidden">Полка 2</h3>
+          <div
+            class="shelf__item item ham"
+            draggable="true"
+            data-id="5"
+            role="button">
+            <img src="./images/shelf-2/ham.svg" alt="" />
+          </div>
+          <div
+            class="shelf__item item chicken"
+            draggable="true"
+            data-id="6"
+            role="button">
+            <img src="./images/shelf-2/chicken.svg" alt="" />
+          </div>
+          <div
+            class="shelf__item item chips"
+            draggable="true"
+            data-id="7"
+            role="button">
+            <img src="./images/shelf-2/chips.svg" alt="" />
+          </div>
+        </div>
+
+        <div class="shelves__item shelf shelf--3">
+          <h3 class="shelf__title visually-hidden">Полка 3</h3>
+          <div
+            class="shelf__item item pineapple"
+            draggable="true"
+            data-id="8"
+            role="button">
+            <img src="./images/shelf-3/pineapple.svg" alt="" />
+          </div>
+          <div
+            class="shelf__item item chicken"
+            draggable="true"
+            data-id="9"
+            role="button">
+            <img src="./images/shelf-3/banana.svg" alt="" />
+          </div>
+          <div
+            class="shelf__item item apple"
+            draggable="true"
+            data-id="10"
+            role="button">
+            <img src="./images/shelf-3/apple.svg" alt="" />
+          </div>
+          <div
+            class="shelf__item item salad"
+            draggable="true"
+            data-id="11"
+            role="button">
+            <img src="./images/shelf-3/salad.svg" alt="" />
+          </div>
+        </div>
+      </div>
+
+      <div class="banner__cart cart" aria-labelledby="cart-title">
+        <h2 class="visually-hidden">Корзина</h2>
+        <div class="cart__container"></div>
+        <div class="cart__container"></div>
+        <div class="cart__container"></div>
+        <div class="cart__container"></div>
+      </div>
+
+      <button class="banner__checkout-button">Оформить&nbsp;покупку</button>
+    </aside>
+
+    <script src="script.js"></script>
+  </body>
+</html>
