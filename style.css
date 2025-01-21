@@ -70,13 +70,13 @@
 }
 
 .shelf--1 {
-    height: 128px;
-    margin-bottom: 7px;
+    height: 126px;
+    margin-bottom: 10px;
 }
 
 .shelf--2 {
     height: 90px;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
 }
 
 .shelf--3 {
@@ -92,11 +92,6 @@
     touch-action: none;
     transition: transform 0.2s;
 }
-
-/* .item._dragging {
-    transform: scale(1.2);
-    transition: transform 0.2s;
-} */
 
 .wine {
     left: 22px;
@@ -119,7 +114,7 @@
 }
 
 .chicken {
-    left: 51px;
+    left: 56px;
     bottom: -10px;
 }
 
